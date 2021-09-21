@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+#busqueda{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.categoria-libro{
+    border-color: black;
+    border-width: 1px;
+    border-radius: 3px;
+    border-style: solid;
+    margin: 0 25px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+#categorias{
+    height: 90px;
+}
+
+#lista-categorias{
+    display:flex;
+    justify-content: center;
+}
+
+.libro-popular{
+    margin: 0 15px;
+    
+}
+
+#lista-libros-populares{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    margin-top: 50px;
+    border-top-style: solid;
+    border-top-color: black;
+    border-top-width: 1px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
